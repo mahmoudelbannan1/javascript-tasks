@@ -1,0 +1,33 @@
+img {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  background-color: transparent;
+}
+.flip {
+  transform: rotatey(180deg);
+}
+
+div {
+  cursor: crosshair;
+  /* width: 100vw; */
+  height: 90vh;
+}
+
+.score {
+  padding: 10px;
+  margin: 10px;
+  width: 50px;
+  font-size: 30px;
+  font-weight: bold;
+  background-color: orangered;
+  color: white;
+  display: inline-block;
+  text-align: center;
+  border-radius: 50%;
+  z-index: -1;
+}
+
+.die {
+  filter: grayscale(100%);
+}
